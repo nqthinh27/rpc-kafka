@@ -1,0 +1,21 @@
+spring:
+  kafka:
+    is-authen: false
+    bootstrap-servers: 113.190.240.224:9092
+#    bootstrap-servers: kafka-broker-1:19095,kafka-broker-2:29095,kafka-broker-3:39095
+    keystore_location: /Users/nguyenviet/Documents/Work/VTS/TrafficId/elatrocket/carTracking-service/src/main/resources/config/certs/kafka.dbz.keystore.jks
+    truststore_location: /Users/nguyenviet/Documents/Work/VTS/TrafficId/elatrocket/carTracking-service/src/main/resources/config/certs/kafka.dbz.truststore.jks
+    password: iMD+5GRlS1ThfDu1l7c=
+
+    connectorUrl: http://10.60.158.170:8083
+
+    timeout: 30
+    longTimeout: 120
+    longTimeoutUrl: /v-cameras/edit-video
+
+rpc-server:
+  listen-topics: thinhnq7-rpc-topic
+  consumer-group: thinhnq7-rpc-reply-consumer-group
+
+server:
+  port: 8088
