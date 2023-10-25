@@ -95,7 +95,7 @@ public class RpcControllerInvoker {
         try {
             for (int i = 0; i < parameterTypes.length; i++) {
                 Class<?> parameterType = parameterTypes[i];
-                if ("vn.com.viettel.rpckafka.entity.server.Request".equals(parameterType.getName())) {
+                if ("com.provision.rpckafka.entity.server.Request".equals(parameterType.getName())) {
                     args[i] = request;
                 } else {
                     try {

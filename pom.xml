@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>vn.com</groupId>
+	<groupId>com.provision</groupId>
 	<artifactId>rpc-kafka</artifactId>
 	<version>0.0.1</version>
 	<name>rpc-kafka</name>
